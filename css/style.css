@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; }
+  body .navbar .navbar-brand {
+    padding: 15px;
+    color: #ffffff; }
+  body .navbar li {
+    padding: 15px; }
+    body .navbar li a {
+      font-size: 18px;
+      text-transform: uppercase; }
+    body .navbar li .sub-menu {
+      display: none;
+      position: absolute;
+      min-width: 180px;
+      padding-top: 15px; }
+      body .navbar li .sub-menu li {
+        list-style: none;
+        background: #262626; }
+        body .navbar li .sub-menu li a {
+          text-decoration: none;
+          color: #ffffff; }
+
+body .navbar .navbar-brand:hover {
+  background: #2196f3; }
+
+body .navbar li:hover .sub-menu {
+  display: block; }
+
+body .navbar .navbar-nav li .sub-menu li:hover {
+  background: #2196f3; }
